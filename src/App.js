@@ -3,7 +3,7 @@ import TOC from "./components/TOC"
 import Subject from './components/Subject'
 
 import './App.css';
-//state는 component내부에서만 사용 
+//state는 component내부에서만 사용   
 class App extends Component {
   //컴포넌트 실행시 constructor 실행으로 초기화 진행
   constructor(props){
