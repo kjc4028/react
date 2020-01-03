@@ -2,15 +2,16 @@ import React, {Component} from 'react';
 
 class Subject extends Component {
   render(){
+    const height_100 = {
+      height: '100%',
+    }
     return(
-      <div>
-        
-        <h2>=====Subject 영역=====</h2>
-        <header>
-   
-            <h1>{this.props.title}</h1>
-                {this.props.sub}
-        </header>
+      <div className="jumbotron" style={height_100}>
+        <div className="container" style={height_100}>
+          <h2>===== compnent 영역=====</h2>
+              <h1>{this.props.title}  (props)</h1>
+                  {this.props.sub}  (props)
+        </div>
       </div>
     );
   }
