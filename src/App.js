@@ -5,6 +5,7 @@ import RouterCom from './components/Router'
 import Page1 from './components/page/Page1'
 import Page2 from './components/page/Page2'
 import Page3 from './components/page/Page3'
+import LinkCom from './components/LinkCom'
 
 import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
@@ -49,9 +50,11 @@ class App extends Component {
           {/* header */}
           <nav class="navbar navbar-dark bg-dark">
           <a class="navbar-brand" href="#">header</a>
+          {/* <RouterCom/> */}
+          <LinkCom/>
           </nav>
           {/* component */}
-          <RouterCom/>
+          {this.props.pageProp}
           <Subject title={this.state.subject.title} sub={this.state.subject.sub}></Subject>
           {/* footer */}
           <nav class="navbar fixed-bottom navbar-dark bg-dark">
