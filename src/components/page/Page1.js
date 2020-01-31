@@ -8,7 +8,7 @@ const Page1 = () =>{
   
     return (
       <div>
-             Page1
+             PAGE1
       </div>
     );
 
