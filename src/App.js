@@ -49,7 +49,7 @@ class App extends Component {
         //   </main>     
 <>
           {/* header */}
-          <Header/>
+          APP Main
           
           {/* component */}
           {/* <Subject title={this.state.subject.title} sub={this.state.subject.sub}></Subject> */}

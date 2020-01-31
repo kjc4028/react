@@ -8,11 +8,12 @@ import DropDownComp from './components/DropDownComp'
 import App from './App';
 import Subject from './components/Subject';
 import Footer from './components/Footer';
+import Header from './components/Header';
 
 
 export default () => (
     <Router>
-        <App/>
+        <Header/>
         <Route exact path="/" component={App}/>
         <Route exact path="/sub" component={Subject}/>
         <Route path="/page1" component={Page1}/>
